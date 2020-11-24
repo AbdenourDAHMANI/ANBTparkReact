@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from "react-dom";
+import {  Route, Switch,  } from "react-router-dom";
+import PageUserInfo from './PageUser/PageUserInfo';
+import PageUser from './PageUser/PageUser'
+
+
+
+import AdminLayout from "layouts/Admin/Admin.jsx";
+
+import "assets/scss/black-dashboard-react.scss";
+import "assets/demo/demo.css";
+import "assets/css/nucleo-icons.css";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div><Switch>
+    <Route path="/admin" render={props => <AdminLayout {...props} />} />
+   
+    <Route path='/' exact component={PageUser} />
+         <Route path='/User' component={PageUserInfo} />
+  </Switch>
+    
+    
+    
+    </div>       
+            
+         
   );
 }
 

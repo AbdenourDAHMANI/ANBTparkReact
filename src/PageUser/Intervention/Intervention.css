@@ -1,0 +1,65 @@
+
+  .intervention{
+
+    margin-top: -70vh;
+    left: 0;
+    right: 0;
+    width: 100vh;
+    height: 70vh;
+    background: #112569 ;
+    box-shadow: 8px 3px 36px #000000;
+    opacity: 0.97;
+
+border-radius: 1%
+
+  }
+  .spec{
+    color: #FFFFFF;
+    
+    margin-top: 5vh;
+  }
+  
+  .specification{
+    margin-top: 5vh;
+    height:30vh ;
+    width: 60vh;
+    background: #FFFFFF ;
+border: 1px solid #C7C7C7;
+border-radius: 3px;
+opacity: 1;
+display: block;
+  }
+  .lbl{
+    font-size: 3vh;
+    color: #FFFFFF;
+    margin-top: 7vh;
+  }
+  .div3{
+    margin-top: 10vh;
+  }
+  
+.btn{
+    background-color: #112569;
+    color: white;
+    height: 5.6vh;
+    width: 43vh;
+    border: 1.3px solid white;
+    display: block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+    }
+    
+    .btn:hover{
+    background-color: white;
+    color : #112569;
+    border: 1.8px solid #112569;
+    box-shadow: 0 8px 1px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    
+    }
+    .btn:active{
+        background-color: white;
+    
+    
+    }

@@ -1,0 +1,42 @@
+
+  .interventions{
+
+    margin-top: -70vh;
+    left: 0;
+    right: 0;
+    width: 150vh;
+    height: 80vh;
+    background: #FFFFF3 ;
+    box-shadow: 8px 3px 36px #000000;
+    opacity: 0.97;
+
+border-radius: 1%;    overflow-x:auto;
+overflow-y: auto;
+
+  }
+table{  border-collapse: collapse;
+  overflow: hidden;
+  
+}
+  th{
+overflow: hidden;
+    font-size: 2vh;
+    padding: 14px;
+   
+  }
+  tr{ border-bottom: 1px solid #dddddd;
+  overflow: hidden;
+  ;
+  }
+  td{
+    font-size: 1.4vh; 
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 7vh;
+    overflow: hidden;
+  }
+.validate{
+  cursor: pointer;
+
+
+}

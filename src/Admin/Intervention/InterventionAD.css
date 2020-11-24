@@ -1,0 +1,66 @@
+.div1{
+
+    height: 20vh;
+    width: 39vh;
+    background-color: #FFFFF3;
+    border-radius: 11px;
+    cursor: pointer;
+    display: inline-table;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 10vh;
+    box-shadow: 0px 3px 6px #000000;
+
+}
+.profilea{ 
+    overflow: hidden;
+    margin-left: -1.5vh;
+    height: 8vh;
+    width: 8vh;
+    
+    }
+    .profa{
+        overflow: hidden;
+          height: 5vh;
+          width: 5vh;
+          border-radius: 50%;
+          box-shadow: 0px 0px 6px #020609;
+          position: absolute;
+          margin-left: 3vh;
+          margin-top: 3vh;
+      
+        }
+
+.name{
+font-size: 1.8vh;
+font-weight: 600;
+text-align: center;
+padding-top: 3vh;
+padding-left: 3vh;
+}
+.postea{
+font-size: 1.6vh;
+padding-top: 0.5vh;
+text-align: center;
+
+
+}
+.priority{
+font-size: 1.5vh;
+text-align: center; 
+
+
+}
+
+.heure{
+font-size: 1.2vh;
+color: #A8A1A1;
+float: left;
+padding-left: 2vh;
+}
+.date{
+    font-size: 1.2vh;
+    color: #A8A1A1;
+    float: right;
+padding-right: 2vh;
+}

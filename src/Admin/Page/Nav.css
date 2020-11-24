@@ -1,0 +1,38 @@
+
+.nav{
+    height: 16vh;
+    width: 100%;
+    background-color: #112569;
+    box-shadow: 8px 3px 36px #020609;
+
+
+}
+.profile{ 
+    overflow: hidden;
+    margin-left: -3.4vh;
+    height: 17vh;
+    width: 17vh;
+    
+    }
+    
+    
+  .prof{
+    overflow: hidden;
+      height: 10vh;
+      width: 10vh;
+      border-radius: 50%;
+          box-shadow: 8px 3px 36px #020609;
+      position: absolute;
+    margin-right: 5vh;
+    margin-top: 3vh;
+      right: 0;
+    }
+    .name{
+        position: absolute;
+        font-size: 3vh;
+        color: aliceblue;
+        right: 0;
+        margin-right: 20vh;
+        margin-top: 5.8vh;
+
+    }

@@ -1,0 +1,81 @@
+.titre{
+color: white;
+font-size: 5vh;
+}
+.username{
+    width: 41vh;
+    height: 5vh;
+    font-size: 1.7vh;
+    border: none;
+    font-family: 'Roboto';
+    color: black;
+    padding-left: 2vh;
+    font-weight: 400;
+    display: block;
+    margin-top: 2vh;
+}
+.btn{
+margin-top: 3vh;
+background-color: #112569;
+color: white;
+height: 5.6vh;
+width: 43vh;
+border: 1.3px solid white;
+
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+
+}
+
+.btn:hover{
+background-color: white;
+color : #112569;
+border: 1.8px solid #112569;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+cursor: pointer;
+
+}
+.btn:active{
+    background-color: white;
+
+
+}
+
+i{
+    position: absolute;
+    margin-left: 15vh;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #00B0FA;
+    border-radius: 50%;
+    display: block;
+    position: fixed;
+    margin-top: 8vh;
+    margin-left: 80vh;
+    opacity: 0.8;
+  }
+  .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #00B0FA;
+    border-radius: 50%;
+    display: block;
+    position: fixed;
+    margin-top: 5vh;
+    margin-left: 95vh;
+    opacity: 0.8;
+  }
+  .dot3 {
+    height: 17px;
+    width: 17px;
+    background-color: #00B0FA;
+    border-radius: 50%;
+    display: block;
+    position: fixed;
+    margin-top: 6vh;
+    margin-left: 120vh;
+    opacity: 0.8;
+  }
